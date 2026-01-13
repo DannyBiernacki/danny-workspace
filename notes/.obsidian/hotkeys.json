@@ -1,0 +1,53 @@
+{
+    "hotkeys": {
+        "daily-notes": [
+            {
+                "modifiers": [
+                    "Mod"
+                ],
+                "key": "D"
+            }
+        ],
+        "insert-template": [
+            {
+                "modifiers": [
+                    "Mod"
+                ],
+                "key": "T"
+            }
+        ],
+        "switcher:open": [
+            {
+                "modifiers": [
+                    "Mod"
+                ],
+                "key": "O"
+            }
+        ],
+        "command-palette:open": [
+            {
+                "modifiers": [
+                    "Mod"
+                ],
+                "key": "P"
+            }
+        ],
+        "global-search:open": [
+            {
+                "modifiers": [
+                    "Mod",
+                    "Shift"
+                ],
+                "key": "F"
+            }
+        ],
+        "graph:open": [
+            {
+                "modifiers": [
+                    "Mod"
+                ],
+                "key": "G"
+            }
+        ]
+    }
+}
