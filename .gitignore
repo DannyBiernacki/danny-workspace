@@ -37,3 +37,11 @@ yarn-debug.log*
 .claude/CLAUDE.local.md
 notes/
 scratch/
+
+# Obsidian
+notes/.obsidian/workspace.json
+notes/.obsidian/workspace-mobile.json
+notes/.obsidian/cache
+notes/.obsidian/plugins/*/data.json
+notes/.trash/
+
