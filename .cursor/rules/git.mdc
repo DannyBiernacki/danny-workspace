@@ -1,0 +1,47 @@
+---
+description: Git conventions and commit message standards for workspace
+globs:
+  - "**/.git/**"
+  - "**/.gitignore"
+alwaysApply: false
+---
+
+# GIT CONVENTIONS
+
+## Commit Messages
+Follow Conventional Commits:
+- `feat:` - New feature
+- `fix:` - Bug fix
+- `docs:` - Documentation only
+- `style:` - Formatting, no code change
+- `refactor:` - Code restructuring
+- `test:` - Adding tests
+- `chore:` - Maintenance
+
+**Format:** `type(scope): description`
+
+**Examples:**
+```
+feat(projects/website): add contact form
+fix(shared/utils): handle null values
+docs: update README with new structure
+```
+
+## Branch Naming
+- `feature/description` - New features
+- `fix/description` - Bug fixes
+- `refactor/description` - Refactoring
+- `docs/description` - Documentation
+
+## Workflow
+1. Create branch from `main`
+2. Make changes
+3. Commit with conventional messages
+4. Push and create PR
+5. After merge, delete branch
+
+## Best Practices
+- Commit often, push daily
+- Keep commits atomic (one logical change)
+- Write descriptive commit messages
+- Reference issues: `fix: resolve #123`
